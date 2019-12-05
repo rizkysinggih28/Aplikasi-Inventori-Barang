@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#3F51B5">
+
+        <TextView
+            android:id="@+id/TV_Back_Master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:drawableStart="@drawable/ic_arrow_back_black_30dp"/>
+
+        <TextView
+            android:id="@+id/TV_NamaToko_Master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Nama Toko"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/TV_AlamatToko_Master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Alamat Toko"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/TV_NamaToko_Master"/>
+
+        <TextView
+            android:id="@+id/TV_NoTelp_Master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="No.Telp"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/TV_AlamatToko_Master"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/img_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:drawableStart="@drawable/ic_account_circle_black_120dp"/>
+
+    <TextView
+        android:id="@+id/profil_FullName_Master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Ashiap"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_below="@id/img_profil"/>
+
+    <TextView
+        android:id="@+id/profil_Email_Master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ashiap@gmai.com"
+        android:textSize="16sp"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/profil_FullName_Master"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="215dp"
+            android:layout_marginBottom="310dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_add_to_photos_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Kategori"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="310dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_add_to_photos_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Barang"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="215dp"
+            android:layout_marginBottom="90dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Supplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_add_to_photos_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Supplier"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="90dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Pelanggan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_add_to_photos_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Pelanggan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

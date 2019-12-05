@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#3F51B5">
+
+        <TextView
+            android:id="@+id/TV_Back_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:drawableStart="@drawable/ic_arrow_back_black_30dp"/>
+
+        <TextView
+            android:id="@+id/TV_NamaToko_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Nama Toko"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/TV_AlamatToko_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Alamat Toko"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/TV_NamaToko_Home"/>
+
+        <TextView
+            android:id="@+id/TV_NoTelp_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="No.Telp"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/TV_AlamatToko_Home"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/img_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:drawableStart="@drawable/ic_account_circle_black_120dp"/>
+
+    <TextView
+        android:id="@+id/profil_FullName_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Ashiap"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_below="@id/img_profil"/>
+
+    <TextView
+        android:id="@+id/profil_Email_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ashiap@gmai.com"
+        android:textSize="16sp"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/profil_FullName_Home"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="215dp"
+            android:layout_marginBottom="310dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_add_to_queue_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Master"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="310dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Transaksi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_compare_arrows_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Transaksi"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="215dp"
+            android:layout_marginBottom="90dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/Laporan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_event_note_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="Laporan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="90dp"
+            android:background="#3F51B5">
+
+            <TextView
+                android:id="@+id/About"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/ic_info_black_80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:text="About"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
