@@ -4,10 +4,10 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SupplierActivity">
+    tools:context=".LaporanSupplierActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RV_Barang"
+        android:id="@+id/RV_LaporanSupplier"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="80dp">
@@ -20,21 +20,12 @@
         android:layout_marginTop="650dp">
 
         <TextView
-            android:id="@+id/TV_Back_Barang"
+            android:id="@+id/TV_Back_LaporanSupplier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="25dp"
             android:drawableStart="@drawable/ic_arrow_back_white_30dp"/>
-
-        <TextView
-            android:id="@+id/TambahBarang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="345dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="15dp"
-            android:drawableStart="@drawable/ic_add_circle_black_50dp"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

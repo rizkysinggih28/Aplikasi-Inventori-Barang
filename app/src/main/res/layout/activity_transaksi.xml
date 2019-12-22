@@ -75,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="ashiap@gmai.com"
+        android:text="ashiap@gmail.com"
         android:textSize="16sp"
         android:textColor="#3F51B5"
         android:layout_below="@+id/profil_FullName_Transaksi"/>
@@ -92,7 +92,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="215dp"
             android:layout_marginBottom="310dp"
-            android:background="#3F51B5">
+            android:background="@drawable/custom_button">
 
             <TextView
                 android:id="@+id/Brg_Masuk"
@@ -121,7 +121,7 @@
             android:layout_marginLeft="215dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="310dp"
-            android:background="#3F51B5">
+            android:background="@drawable/custom_button">
 
             <TextView
                 android:id="@+id/Brg_Keluar"

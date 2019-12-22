@@ -7,7 +7,7 @@
     tools:context=".SupplierActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RV_Barang"
+        android:id="@+id/RV_Supplier"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="80dp">
@@ -20,7 +20,7 @@
         android:layout_marginTop="650dp">
 
         <TextView
-            android:id="@+id/TV_Back_Barang"
+            android:id="@+id/TV_Back_Supplier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -29,7 +29,7 @@
             android:drawableStart="@drawable/ic_arrow_back_white_30dp"/>
 
         <TextView
-            android:id="@+id/TambahBarang"
+            android:id="@+id/TambahSupplier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="345dp"

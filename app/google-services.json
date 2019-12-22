@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071035834041",
+    "firebase_url": "https://aplikasi-inventori-barang.firebaseio.com",
+    "project_id": "aplikasi-inventori-barang",
+    "storage_bucket": "aplikasi-inventori-barang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071035834041:android:1d529500a7734a91188568",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiinventoribarang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071035834041-q42vidt26ib1v68vmb4pegp3dh2id6v9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasiinventoribarang",
+            "certificate_hash": "ba8d98f535d38ef7215f0e65cea8f4eab0938f8a"
+          }
+        },
+        {
+          "client_id": "1071035834041-59bbvj23a6urh7vk1tp9apdarc8088ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvPaC0bl6V0xwEDBpielnlmiUR1hwtx8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071035834041-59bbvj23a6urh7vk1tp9apdarc8088ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

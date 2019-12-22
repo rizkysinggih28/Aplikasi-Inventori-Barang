@@ -12,7 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TambahBarangActivity"></activity>
+        <activity android:name=".LaporanPelangganActivity"></activity>
+        <activity android:name=".LaporanSupplierActivity" />
+        <activity android:name=".UpdatePelangganActivity" />
+        <activity android:name=".UpdateSupplierActivity" />
+        <activity android:name=".TambahPelangganActivity" />
+        <activity android:name=".PelangganActivity" />
+        <activity android:name=".SupplierActivity" />
+        <activity android:name=".TambahSupplierActivity" />
+        <activity android:name=".TambahBarangActivity" />
         <activity android:name=".BarangActivity" />
         <activity android:name=".UpdateKategoriActivity" />
         <activity android:name=".TambahKategoriActivity" />

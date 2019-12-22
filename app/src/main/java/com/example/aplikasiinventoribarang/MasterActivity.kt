@@ -25,5 +25,15 @@ class MasterActivity : AppCompatActivity() {
             intent = Intent(this, BarangActivity::class.java)
             startActivity(intent)
         }
+
+        Supplier.setOnClickListener {
+            intent = Intent(this, SupplierActivity::class.java)
+            startActivity(intent)
+        }
+
+        Pelanggan.setOnClickListener {
+            intent = Intent(this, PelangganActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

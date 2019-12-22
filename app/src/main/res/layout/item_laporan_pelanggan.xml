@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:outlineSpotShadowColor="@color/colorShadow">
+
+            <TextView
+                android:id="@+id/TV_Nama_LaporanPelanggan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="80dp"
+                android:text="Pelanggan"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/TV_Alamat_LaporanPelanggan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="60dp"
+                android:paddingBottom="60dp"
+                android:text="Alamat"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/TV_NoTelp_LaporanPelanggan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="90dp"
+                android:text="No Telp"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
